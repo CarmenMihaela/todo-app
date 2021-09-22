@@ -1,0 +1,131 @@
+body {
+    background-color: #ffeaa7;
+    min-height: 70vh;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Architects Daughter", cursive;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  header {
+    background-color: #f5ba13;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    width: 100vw;
+    overflow: hidden;
+    margin-top:-8vw;
+  }
+  
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+  
+  .container {
+    width: 92%;
+    height: auto;
+    min-height: 500px;
+    max-width: 500px;
+    min-width: 250px;
+    background: #f1f5f8;
+    background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+    background-size: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 7px 2px #00000040;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: 2vw auto;
+  }
+
+  button {
+    position: absolute;
+    background: #f5ba13;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+    margin: 2vw 0 0 -3.5vw;
+    font-size: 5vw;
+  }
+  
+  .completed_btn {
+    border-radius: 5px;
+    width: 45vw;
+    height: 10vw;
+    background-color: #5D8233;
+    position: relative;
+    margin: auto;
+    white-space: nowrap;
+    margin: 2vw;
+  }
+
+  .entry {
+    width: 80%;
+    border: none;
+    padding: 2%;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+    overflow: hidden;
+    margin-bottom: 15vw;
+    margin-top: 5vw;
+  }
+
+  footer {
+    position: absolute;
+    text-align: center;
+    bottom: 5vw;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  footer p, a {
+    color: #ccc;
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    header {
+      margin-top: -2vw;
+    }
+    button {
+      font-size: 1vw;
+      width: 5vw;
+      height: 5vw;
+    }
+
+    .add_btn{
+      margin: 4vw 0 0 -4vw;
+    }
+
+    .completed_btn{
+      height: 2vw;
+      margin: 1vw;
+      width:10vw;
+    }
+
+    .entry {
+      margin-bottom: 5vw;
+    }
+
+    .container{
+      margin-bottom: 5vw;
+    }
+
+    footer{
+      bottom:2vw;
+    }
+
+  }
+  
